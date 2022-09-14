@@ -27,7 +27,7 @@ class Deck:
 @patch
 def pop(self:Deck, 
         idx:int=-1): # The index of the card to remove, defaulting to the last one
-    "Remove one card from the deck slowly"
+    "Remove one card from the deck"
     return self.cards.pop(idx)
 
 # %% ../01_deck.ipynb 17
